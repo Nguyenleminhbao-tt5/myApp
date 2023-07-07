@@ -1,0 +1,152 @@
+.conTainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.content1{
+  
+    width: calc(100% - var(--width-content2));
+    margin: 13px 3px 13px 3px;
+
+}
+.content1__top{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.content1__top-left
+{
+    width: 49%;
+    height: 100%;
+    background-color: var(--primary1-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-left__heading{
+    margin: 20px;
+    color: white;
+    font-size: 35px;
+}
+.top-left__num{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+}
+.top-left__btn{
+    background-color: white;
+    width: 135px;
+    height: 45px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    color: var(--primary1-color);
+    margin-top: 65px;
+    box-shadow: 0 20px 50px rgba(213, 224, 227, 0.3);
+
+}
+.content1__top-right
+{
+    width: 49%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content1__bot{
+    height: 58%; 
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.content1__bot-heading{
+    text-align: center;
+    padding-top: 10px;
+}
+.content1__bot-chart{
+    display: flex;
+    align-items: center;
+}
+.chart-left
+{
+    padding-bottom: 10px;
+}
+.chart-btn{
+    background-color: var(--primary1-color);
+    width: 145px;
+    height: 50px;
+    border: none;
+    border-radius: 18px;
+    font-size: 22px;
+    color: white;
+    margin-left: 43px;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.chart-btn:hover{
+    filter: brightness(90%);
+}
+.content2{
+    width: var(--width-content2);
+    background-color: white;
+    margin: 13px 10px 13px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+.content2__clock{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content2__clock-heading{
+    margin: 20px;
+    font-size: 35px;
+}
+.content2__clock-clock{
+    width: 200px;
+}
+.content2__img{
+    position: absolute;
+    bottom: 0;
+    height: 45%;
+}
+.content2__img-heading{
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+}
+.content2__img-img{
+    width: 190px;
+    margin-left: calc((270px - 190px)/2);
+}
+.react-calendar{
+    border: none;
+    background-color: transparent;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+}
+.react-calendar__navigation{
+    margin-top: 20px;
+    height: 40px;
+}
+.react-calendar__tile {
+    max-width: 100%;
+    padding: 10px 5px;
+    background: none;
+    text-align: center;
+    line-height: 16px;
+    font-size: 17px;
+}
+.react-calendar__navigation__label{
+    font-size: 20px;
+}
+.react-calendar__navigation__arrow{
+    font-size: 20px;
+}
